@@ -1,3 +1,5 @@
+runtime:
+  nodePool: shippable_shared_aarch64
 build:
   ci:
     - docker build -t jeremjr/bonita:$BRANCH.$BUILD_NUMBER ./7.7
