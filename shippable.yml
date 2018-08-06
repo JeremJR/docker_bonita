@@ -1,3 +1,3 @@
 build:
   ci:
-    - docker build -t JeremJR/bonita:$BRANCH.BUILD_NUMBER ./7.7
+    - docker build -t jeremjr/bonita:$BRANCH.$BUILD_NUMBER ./7.7
